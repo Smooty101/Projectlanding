@@ -1,0 +1,77 @@
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.background1, .background2, .background3 {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.background1 {
+    min-height: 100%;
+    background-image: url(rose\ 1.jpg);
+}
+
+.background2 {
+    min-height: 50%;
+    background-image:url(rose\ 2.jpg)
+
+}
+
+.background3 {
+    min-height: 50%;
+    background-image: url(rose\ 3.jpg)
+}
+
+.title {
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 225, 255, 0.774);
+    font-family: "Dancing Script";
+    font-size: 2rem;
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.botany, .species, .source {
+    text-align: center;
+    background-color: rgba(0, 247, 255, 0.774);
+    font-family: "Merriweather";
+    font-size: 1.3rem;
+    color: white;
+    width: 30%;
+    margin: auto;
+    padding: 1rem;
+    position: relative;
+    top: 20vh;
+}
+
+.source {
+    position: relative;
+    top: 40vh;
+    word-wrap: break-word;
+}
+
+.text {
+    color: white;
+    padding: 1rem;
+}
+
+.rose {
+   background-color: rgba(0, 0, 0, 0.842);
+   text-align: justify;
+   padding: 0 3rem 0 3rem;
+   font-size: 1.1rem;
+   font-family: "Roboto";
+}
